@@ -32,18 +32,18 @@ function meals(){
 
     if (timeOfDay < 1200){
         favoriteMeal = "Eggs Over-Easy";
-        console.log(`Time is ${timeOfDay}, Breakfast is ${favoriteMeal}`)
+        console.log(`Time is ${timeOfDay}, Breakfast is ${favoriteMeal}`);
     }
     else if (timeOfDay >= 1200 && timeOfDay < 1700){
         favoriteMeal = "Ham Sandwich";
-        console.log(`Time is ${timeOfDay}, Lunch is ${favoriteMeal}`)
+        console.log(`Time is ${timeOfDay}, Lunch is ${favoriteMeal}`);
     }
     else if (timeOfDay >= 1700) {
         favoriteMeal = "Buffalo Chicken";
-        console.log(`Time is ${timeOfDay}, Dinner is ${favoriteMeal}`)
+        console.log(`Time is ${timeOfDay}, Dinner is ${favoriteMeal}`);
     }
     else {
-        console.log('An error occured')
+        console.log('An error occured');
     }
 }
 
@@ -131,6 +131,6 @@ function oneA(){
 function oneB(){
     desktopItems[desktopItems.length] = 'Infinity Gauntlet';
     for (let i = 0; i < desktopItems.length; i++){
-        console.log(desktopItems[i])
+        console.log(desktopItems[i]);
     }
 }

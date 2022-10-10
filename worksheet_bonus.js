@@ -1,0 +1,1 @@
+let magicNumber = 50;
