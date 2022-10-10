@@ -30,5 +30,5 @@ function main(){
     let min = (magicNumber - 10);
     let max = (magicNumber + 10);
 
-    guessMagicNumber(magicNumber, min, max, guess)
+    guessMagicNumber(magicNumber, min, max, guess);
 }
