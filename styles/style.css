@@ -1,0 +1,41 @@
+body {
+    background: lightgray;
+}
+
+p {
+    margin-top: -1px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 2%;
+    height: 300px;
+}
+
+.sect-column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
